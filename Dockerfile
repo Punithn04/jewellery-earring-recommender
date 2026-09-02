@@ -1,32 +1,32 @@
-# Hugging Face Spaces (Docker SDK) / any container host.
-# Builds the feature index at image-build time so the first request is fast.
+# Container image for the live FastAPI app (necklace picker + upload + Fashion-CLIP
+# inference). Works on Google Cloud Run, Fly.io, Render, or any Docker host.
+#
+# The Fashion-CLIP + U^2-Net weights and the feature index are baked in at build
+# time, so a cold start only has to *load* them (~15-30s), not download them.
 FROM python:3.11-slim
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
         libgl1 libglib2.0-0 \
     && rm -rf /var/lib/apt/lists/*
 
-# HF Spaces expects a non-root user with uid 1000
-RUN useradd -m -u 1000 user
-USER user
-ENV HOME=/home/user \
-    PATH=/home/user/.local/bin:$PATH \
-    HF_HOME=/home/user/.cache/huggingface \
-    U2NET_HOME=/home/user/.u2net \
-    PYTHONUNBUFFERED=1 \
-    OMP_NUM_THREADS=2
+ENV PYTHONUNBUFFERED=1 \
+    OMP_NUM_THREADS=2 \
+    HF_HOME=/app/.cache/huggingface \
+    U2NET_HOME=/app/.cache/u2net \
+    PORT=8080
 
-WORKDIR /home/user/app
+WORKDIR /app
 
-COPY --chown=user requirements.txt .
-RUN pip install --no-cache-dir --user \
+COPY requirements.txt .
+RUN pip install --no-cache-dir \
         --extra-index-url https://download.pytorch.org/whl/cpu \
         -r requirements.txt
 
-COPY --chown=user . .
+COPY . .
 
-# Pre-download Fashion-CLIP + U^2-Net and build outputs/index.pkl into the image
+# Download models + build outputs/index.pkl into the image
 RUN python precompute.py
 
-EXPOSE 7860
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "7860"]
+EXPOSE 8080
+# shell form so ${PORT} (set by Cloud Run / the platform) is expanded
+CMD exec uvicorn app:app --host 0.0.0.0 --port ${PORT}

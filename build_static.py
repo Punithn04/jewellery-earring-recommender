@@ -79,6 +79,10 @@ HTML = r"""<!doctype html>
   .muted { color: #999; font-size: 11px; }
   .hint { color: #aaa; font-size: 12px; }
   code { background:#f0ece7; padding:1px 5px; border-radius:4px; font-size:12px; }
+  button#go { padding: 8px 18px; font-size: 14px; background: #b5892f; color: #fff;
+    border: 0; border-radius: 6px; cursor: pointer; }
+  button#go:disabled { opacity: .45; cursor: default; }
+  .empty { color: #b7b7b7; font-size: 13px; padding: 18px 0; }
 </style>
 </head>
 <body>

@@ -1,0 +1,9 @@
+.git
+.gitignore
+.venv
+__pycache__/
+*.pyc
+docs/
+outputs/index.pkl
+outputs/reco_*.png
+.DS_Store
