@@ -1,0 +1,14 @@
+torch>=2.2
+torchvision>=0.17
+transformers>=4.40
+pillow>=10.0
+opencv-python-headless>=4.9
+scikit-learn>=1.4
+numpy>=1.26
+scipy>=1.11
+rembg>=2.0.56
+onnxruntime>=1.17
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+matplotlib>=3.8
