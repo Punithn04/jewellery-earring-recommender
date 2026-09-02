@@ -1,0 +1,1259 @@
+{
+ "weights": {
+  "clip": 0.55,
+  "colour": 0.3,
+  "attr": 0.15
+ },
+ "necklaces": [
+  {
+   "id": "N01",
+   "why": [
+    "metal tone: antique matte gold",
+    "stone palette: with uncut polki kundan stones",
+    "style: South Indian temple with goddess Lakshmi motifs"
+   ],
+   "results": [
+    {
+     "rank": 1,
+     "id": "E014",
+     "image_file": "Ear_14.jpg",
+     "score": 0.963,
+     "breakdown": {
+      "clip": 0.7273,
+      "colour": 0.5829,
+      "attr": 0.9935
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "E08",
+     "image_file": "Ear_8.jpg",
+     "score": 0.864,
+     "breakdown": {
+      "clip": 0.7441,
+      "colour": 0.3909,
+      "attr": 0.9862
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: Kundan polki bridal"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "E012",
+     "image_file": "Ear_12.jpg",
+     "score": 0.823,
+     "breakdown": {
+      "clip": 0.7296,
+      "colour": 0.3766,
+      "attr": 0.9863
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "E011",
+     "image_file": "Ear_11.jpg",
+     "score": 0.7875,
+     "breakdown": {
+      "clip": 0.6847,
+      "colour": 0.4827,
+      "attr": 0.9831
+     },
+     "why": [
+      "metal tone: bright polished yellow gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "E010",
+     "image_file": "Ear_10.jpg",
+     "score": 0.762,
+     "breakdown": {
+      "clip": 0.7301,
+      "colour": 0.2717,
+      "attr": 0.9897
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "E01",
+     "image_file": "Ear_1.jpg",
+     "score": 0.7495,
+     "breakdown": {
+      "clip": 0.6877,
+      "colour": 0.411,
+      "attr": 0.9842
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "E06",
+     "image_file": "Ear_6.jpg",
+     "score": 0.574,
+     "breakdown": {
+      "clip": 0.6659,
+      "colour": 0.3084,
+      "attr": 0.9471
+     },
+     "why": [
+      "metal tone: silver white rhodium",
+      "stone palette: with green emerald stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "E04",
+     "image_file": "Ear_4.jpg",
+     "score": 0.5469,
+     "breakdown": {
+      "clip": 0.637,
+      "colour": 0.3413,
+      "attr": 0.9562
+     },
+     "why": [
+      "metal tone: silver white rhodium",
+      "stone palette: plain gold with pearls and no coloured stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "E013",
+     "image_file": "Ear_13.jpg",
+     "score": 0.5366,
+     "breakdown": {
+      "clip": 0.638,
+      "colour": 0.2921,
+      "attr": 0.9679
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: plain gold with pearls and no coloured stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "E09",
+     "image_file": "Ear_9.jpg",
+     "score": 0.5184,
+     "breakdown": {
+      "clip": 0.5735,
+      "colour": 0.5248,
+      "attr": 0.9519
+     },
+     "why": [
+      "metal tone: bright polished yellow gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 11,
+     "id": "E015",
+     "image_file": "Ear_15.jpg",
+     "score": 0.4966,
+     "breakdown": {
+      "clip": 0.5962,
+      "colour": 0.3524,
+      "attr": 0.9759
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: plain gold with pearls and no coloured stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 12,
+     "id": "E05",
+     "image_file": "Ear_5.jpg",
+     "score": 0.4848,
+     "breakdown": {
+      "clip": 0.6679,
+      "colour": 0.1184,
+      "attr": 0.9647
+     },
+     "why": [
+      "metal tone: silver white rhodium",
+      "stone palette: with uncut polki kundan stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 13,
+     "id": "E03",
+     "image_file": "Ear_3.jpg",
+     "score": 0.3632,
+     "breakdown": {
+      "clip": 0.5875,
+      "colour": 0.2974,
+      "attr": 0.928
+     },
+     "why": [
+      "metal tone: rose gold",
+      "stone palette: with green emerald stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 14,
+     "id": "E02",
+     "image_file": "Ear_2.jpg",
+     "score": 0.291,
+     "breakdown": {
+      "clip": 0.5687,
+      "colour": 0.3149,
+      "attr": 0.9025
+     },
+     "why": [
+      "metal tone: silver white rhodium",
+      "stone palette: with green emerald stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 15,
+     "id": "E07",
+     "image_file": "Ear_7.jpg",
+     "score": 0.0831,
+     "breakdown": {
+      "clip": 0.4941,
+      "colour": 0.1782,
+      "attr": 0.9295
+     },
+     "why": [
+      "metal tone: rose gold",
+      "stone palette: with red ruby stones",
+      "style: modern diamond cocktail"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "N02",
+   "why": [
+    "metal tone: antique matte gold",
+    "stone palette: with uncut polki kundan stones",
+    "style: Kundan polki bridal"
+   ],
+   "results": [
+    {
+     "rank": 1,
+     "id": "E08",
+     "image_file": "Ear_8.jpg",
+     "score": 0.9142,
+     "breakdown": {
+      "clip": 0.8219,
+      "colour": 0.4983,
+      "attr": 0.9974
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: Kundan polki bridal"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "E011",
+     "image_file": "Ear_11.jpg",
+     "score": 0.8677,
+     "breakdown": {
+      "clip": 0.7583,
+      "colour": 0.6359,
+      "attr": 0.9882
+     },
+     "why": [
+      "metal tone: bright polished yellow gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "E01",
+     "image_file": "Ear_1.jpg",
+     "score": 0.7877,
+     "breakdown": {
+      "clip": 0.7392,
+      "colour": 0.5496,
+      "attr": 0.992
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "E014",
+     "image_file": "Ear_14.jpg",
+     "score": 0.7794,
+     "breakdown": {
+      "clip": 0.7811,
+      "colour": 0.4247,
+      "attr": 0.9896
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "E012",
+     "image_file": "Ear_12.jpg",
+     "score": 0.7635,
+     "breakdown": {
+      "clip": 0.7994,
+      "colour": 0.3531,
+      "attr": 0.9877
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "E010",
+     "image_file": "Ear_10.jpg",
+     "score": 0.7604,
+     "breakdown": {
+      "clip": 0.8038,
+      "colour": 0.3259,
+      "attr": 0.9906
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "E013",
+     "image_file": "Ear_13.jpg",
+     "score": 0.7303,
+     "breakdown": {
+      "clip": 0.7653,
+      "colour": 0.4036,
+      "attr": 0.9858
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: plain gold with pearls and no coloured stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "E06",
+     "image_file": "Ear_6.jpg",
+     "score": 0.5764,
+     "breakdown": {
+      "clip": 0.7413,
+      "colour": 0.3052,
+      "attr": 0.9615
+     },
+     "why": [
+      "metal tone: silver white rhodium",
+      "stone palette: with green emerald stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "E05",
+     "image_file": "Ear_5.jpg",
+     "score": 0.5657,
+     "breakdown": {
+      "clip": 0.7363,
+      "colour": 0.2456,
+      "attr": 0.9787
+     },
+     "why": [
+      "metal tone: silver white rhodium",
+      "stone palette: with uncut polki kundan stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "E04",
+     "image_file": "Ear_4.jpg",
+     "score": 0.5565,
+     "breakdown": {
+      "clip": 0.7005,
+      "colour": 0.3673,
+      "attr": 0.9683
+     },
+     "why": [
+      "metal tone: silver white rhodium",
+      "stone palette: plain gold with pearls and no coloured stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 11,
+     "id": "E015",
+     "image_file": "Ear_15.jpg",
+     "score": 0.5425,
+     "breakdown": {
+      "clip": 0.6432,
+      "colour": 0.487,
+      "attr": 0.9749
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: plain gold with pearls and no coloured stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 12,
+     "id": "E09",
+     "image_file": "Ear_9.jpg",
+     "score": 0.5245,
+     "breakdown": {
+      "clip": 0.6158,
+      "colour": 0.5559,
+      "attr": 0.9689
+     },
+     "why": [
+      "metal tone: bright polished yellow gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 13,
+     "id": "E02",
+     "image_file": "Ear_2.jpg",
+     "score": 0.3014,
+     "breakdown": {
+      "clip": 0.6441,
+      "colour": 0.2639,
+      "attr": 0.9244
+     },
+     "why": [
+      "metal tone: silver white rhodium",
+      "stone palette: with green emerald stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 14,
+     "id": "E03",
+     "image_file": "Ear_3.jpg",
+     "score": 0.236,
+     "breakdown": {
+      "clip": 0.6084,
+      "colour": 0.2572,
+      "attr": 0.9255
+     },
+     "why": [
+      "metal tone: rose gold",
+      "stone palette: with green emerald stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 15,
+     "id": "E07",
+     "image_file": "Ear_7.jpg",
+     "score": 0.034,
+     "breakdown": {
+      "clip": 0.5131,
+      "colour": 0.1548,
+      "attr": 0.9409
+     },
+     "why": [
+      "metal tone: rose gold",
+      "stone palette: with red ruby stones",
+      "style: modern diamond cocktail"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "N03",
+   "why": [
+    "metal tone: antique matte gold",
+    "stone palette: with uncut polki kundan stones",
+    "style: modern diamond cocktail"
+   ],
+   "results": [
+    {
+     "rank": 1,
+     "id": "E011",
+     "image_file": "Ear_11.jpg",
+     "score": 0.83,
+     "breakdown": {
+      "clip": 0.6329,
+      "colour": 0.5636,
+      "attr": 0.9981
+     },
+     "why": [
+      "metal tone: bright polished yellow gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "E01",
+     "image_file": "Ear_1.jpg",
+     "score": 0.8273,
+     "breakdown": {
+      "clip": 0.685,
+      "colour": 0.4635,
+      "attr": 0.9778
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "E08",
+     "image_file": "Ear_8.jpg",
+     "score": 0.774,
+     "breakdown": {
+      "clip": 0.673,
+      "colour": 0.3907,
+      "attr": 0.9852
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: Kundan polki bridal"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "E014",
+     "image_file": "Ear_14.jpg",
+     "score": 0.7488,
+     "breakdown": {
+      "clip": 0.6471,
+      "colour": 0.4178,
+      "attr": 0.9918
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "E013",
+     "image_file": "Ear_13.jpg",
+     "score": 0.7393,
+     "breakdown": {
+      "clip": 0.6352,
+      "colour": 0.4693,
+      "attr": 0.9878
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: plain gold with pearls and no coloured stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "E010",
+     "image_file": "Ear_10.jpg",
+     "score": 0.7234,
+     "breakdown": {
+      "clip": 0.7005,
+      "colour": 0.2081,
+      "attr": 0.9852
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "E05",
+     "image_file": "Ear_5.jpg",
+     "score": 0.6609,
+     "breakdown": {
+      "clip": 0.6181,
+      "colour": 0.4052,
+      "attr": 0.9898
+     },
+     "why": [
+      "metal tone: silver white rhodium",
+      "stone palette: with uncut polki kundan stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "E012",
+     "image_file": "Ear_12.jpg",
+     "score": 0.5872,
+     "breakdown": {
+      "clip": 0.6255,
+      "colour": 0.2928,
+      "attr": 0.9842
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "E015",
+     "image_file": "Ear_15.jpg",
+     "score": 0.4555,
+     "breakdown": {
+      "clip": 0.5904,
+      "colour": 0.3209,
+      "attr": 0.9657
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: plain gold with pearls and no coloured stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "E06",
+     "image_file": "Ear_6.jpg",
+     "score": 0.4414,
+     "breakdown": {
+      "clip": 0.5929,
+      "colour": 0.2065,
+      "attr": 0.9821
+     },
+     "why": [
+      "metal tone: silver white rhodium",
+      "stone palette: with green emerald stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 11,
+     "id": "E09",
+     "image_file": "Ear_9.jpg",
+     "score": 0.4216,
+     "breakdown": {
+      "clip": 0.5117,
+      "colour": 0.4659,
+      "attr": 0.9862
+     },
+     "why": [
+      "metal tone: bright polished yellow gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 12,
+     "id": "E04",
+     "image_file": "Ear_4.jpg",
+     "score": 0.3691,
+     "breakdown": {
+      "clip": 0.5243,
+      "colour": 0.3401,
+      "attr": 0.9858
+     },
+     "why": [
+      "metal tone: silver white rhodium",
+      "stone palette: plain gold with pearls and no coloured stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 13,
+     "id": "E02",
+     "image_file": "Ear_2.jpg",
+     "score": 0.313,
+     "breakdown": {
+      "clip": 0.5697,
+      "colour": 0.2465,
+      "attr": 0.9532
+     },
+     "why": [
+      "metal tone: silver white rhodium",
+      "stone palette: with green emerald stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 14,
+     "id": "E03",
+     "image_file": "Ear_3.jpg",
+     "score": 0.1854,
+     "breakdown": {
+      "clip": 0.5201,
+      "colour": 0.1965,
+      "attr": 0.9621
+     },
+     "why": [
+      "metal tone: rose gold",
+      "stone palette: with green emerald stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 15,
+     "id": "E07",
+     "image_file": "Ear_7.jpg",
+     "score": 0.0431,
+     "breakdown": {
+      "clip": 0.4816,
+      "colour": 0.1071,
+      "attr": 0.9661
+     },
+     "why": [
+      "metal tone: rose gold",
+      "stone palette: with red ruby stones",
+      "style: modern diamond cocktail"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "N04",
+   "why": [
+    "metal tone: silver white rhodium",
+    "stone palette: with uncut polki kundan stones",
+    "style: Kundan polki bridal"
+   ],
+   "results": [
+    {
+     "rank": 1,
+     "id": "E08",
+     "image_file": "Ear_8.jpg",
+     "score": 0.8811,
+     "breakdown": {
+      "clip": 0.6964,
+      "colour": 0.5117,
+      "attr": 0.9863
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: Kundan polki bridal"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "E04",
+     "image_file": "Ear_4.jpg",
+     "score": 0.8624,
+     "breakdown": {
+      "clip": 0.6443,
+      "colour": 0.6119,
+      "attr": 0.9925
+     },
+     "why": [
+      "metal tone: silver white rhodium",
+      "stone palette: plain gold with pearls and no coloured stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "E06",
+     "image_file": "Ear_6.jpg",
+     "score": 0.848,
+     "breakdown": {
+      "clip": 0.6677,
+      "colour": 0.5421,
+      "attr": 0.9879
+     },
+     "why": [
+      "metal tone: silver white rhodium",
+      "stone palette: with green emerald stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "E05",
+     "image_file": "Ear_5.jpg",
+     "score": 0.7781,
+     "breakdown": {
+      "clip": 0.7106,
+      "colour": 0.3066,
+      "attr": 0.9916
+     },
+     "why": [
+      "metal tone: silver white rhodium",
+      "stone palette: with uncut polki kundan stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "E011",
+     "image_file": "Ear_11.jpg",
+     "score": 0.7304,
+     "breakdown": {
+      "clip": 0.6019,
+      "colour": 0.5715,
+      "attr": 0.987
+     },
+     "why": [
+      "metal tone: bright polished yellow gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "E013",
+     "image_file": "Ear_13.jpg",
+     "score": 0.679,
+     "breakdown": {
+      "clip": 0.6075,
+      "colour": 0.4733,
+      "attr": 0.9898
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: plain gold with pearls and no coloured stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "E014",
+     "image_file": "Ear_14.jpg",
+     "score": 0.6621,
+     "breakdown": {
+      "clip": 0.6444,
+      "colour": 0.4031,
+      "attr": 0.9743
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "E09",
+     "image_file": "Ear_9.jpg",
+     "score": 0.6476,
+     "breakdown": {
+      "clip": 0.5949,
+      "colour": 0.4965,
+      "attr": 0.9819
+     },
+     "why": [
+      "metal tone: bright polished yellow gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "E012",
+     "image_file": "Ear_12.jpg",
+     "score": 0.6281,
+     "breakdown": {
+      "clip": 0.6669,
+      "colour": 0.3329,
+      "attr": 0.9634
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "E01",
+     "image_file": "Ear_1.jpg",
+     "score": 0.5692,
+     "breakdown": {
+      "clip": 0.6124,
+      "colour": 0.3912,
+      "attr": 0.9678
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 11,
+     "id": "E02",
+     "image_file": "Ear_2.jpg",
+     "score": 0.53,
+     "breakdown": {
+      "clip": 0.5899,
+      "colour": 0.4013,
+      "attr": 0.9679
+     },
+     "why": [
+      "metal tone: silver white rhodium",
+      "stone palette: with green emerald stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 12,
+     "id": "E010",
+     "image_file": "Ear_10.jpg",
+     "score": 0.485,
+     "breakdown": {
+      "clip": 0.644,
+      "colour": 0.1945,
+      "attr": 0.9648
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 13,
+     "id": "E03",
+     "image_file": "Ear_3.jpg",
+     "score": 0.3786,
+     "breakdown": {
+      "clip": 0.5353,
+      "colour": 0.3737,
+      "attr": 0.9612
+     },
+     "why": [
+      "metal tone: rose gold",
+      "stone palette: with green emerald stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 14,
+     "id": "E015",
+     "image_file": "Ear_15.jpg",
+     "score": 0.2029,
+     "breakdown": {
+      "clip": 0.5117,
+      "colour": 0.2855,
+      "attr": 0.9383
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: plain gold with pearls and no coloured stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 15,
+     "id": "E07",
+     "image_file": "Ear_7.jpg",
+     "score": 0.0996,
+     "breakdown": {
+      "clip": 0.4454,
+      "colour": 0.2336,
+      "attr": 0.9641
+     },
+     "why": [
+      "metal tone: rose gold",
+      "stone palette: with red ruby stones",
+      "style: modern diamond cocktail"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "N05",
+   "why": [
+    "metal tone: silver white rhodium",
+    "stone palette: with red ruby stones",
+    "style: modern diamond cocktail"
+   ],
+   "results": [
+    {
+     "rank": 1,
+     "id": "E013",
+     "image_file": "Ear_13.jpg",
+     "score": 0.9914,
+     "breakdown": {
+      "clip": 0.705,
+      "colour": 0.4359,
+      "attr": 0.9847
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: plain gold with pearls and no coloured stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 2,
+     "id": "E05",
+     "image_file": "Ear_5.jpg",
+     "score": 0.928,
+     "breakdown": {
+      "clip": 0.7028,
+      "colour": 0.3826,
+      "attr": 0.9789
+     },
+     "why": [
+      "metal tone: silver white rhodium",
+      "stone palette: with uncut polki kundan stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 3,
+     "id": "E04",
+     "image_file": "Ear_4.jpg",
+     "score": 0.8855,
+     "breakdown": {
+      "clip": 0.6604,
+      "colour": 0.4433,
+      "attr": 0.9825
+     },
+     "why": [
+      "metal tone: silver white rhodium",
+      "stone palette: plain gold with pearls and no coloured stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 4,
+     "id": "E06",
+     "image_file": "Ear_6.jpg",
+     "score": 0.8083,
+     "breakdown": {
+      "clip": 0.6731,
+      "colour": 0.3369,
+      "attr": 0.9753
+     },
+     "why": [
+      "metal tone: silver white rhodium",
+      "stone palette: with green emerald stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 5,
+     "id": "E08",
+     "image_file": "Ear_8.jpg",
+     "score": 0.7787,
+     "breakdown": {
+      "clip": 0.6956,
+      "colour": 0.2695,
+      "attr": 0.9615
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: Kundan polki bridal"
+     ]
+    },
+    {
+     "rank": 6,
+     "id": "E011",
+     "image_file": "Ear_11.jpg",
+     "score": 0.7507,
+     "breakdown": {
+      "clip": 0.6521,
+      "colour": 0.3483,
+      "attr": 0.9656
+     },
+     "why": [
+      "metal tone: bright polished yellow gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 7,
+     "id": "E02",
+     "image_file": "Ear_2.jpg",
+     "score": 0.6689,
+     "breakdown": {
+      "clip": 0.6208,
+      "colour": 0.3443,
+      "attr": 0.9645
+     },
+     "why": [
+      "metal tone: silver white rhodium",
+      "stone palette: with green emerald stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 8,
+     "id": "E014",
+     "image_file": "Ear_14.jpg",
+     "score": 0.6081,
+     "breakdown": {
+      "clip": 0.6626,
+      "colour": 0.1986,
+      "attr": 0.9462
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 9,
+     "id": "E03",
+     "image_file": "Ear_3.jpg",
+     "score": 0.5856,
+     "breakdown": {
+      "clip": 0.5797,
+      "colour": 0.3462,
+      "attr": 0.9735
+     },
+     "why": [
+      "metal tone: rose gold",
+      "stone palette: with green emerald stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 10,
+     "id": "E09",
+     "image_file": "Ear_9.jpg",
+     "score": 0.5762,
+     "breakdown": {
+      "clip": 0.6033,
+      "colour": 0.2607,
+      "attr": 0.9792
+     },
+     "why": [
+      "metal tone: bright polished yellow gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 11,
+     "id": "E01",
+     "image_file": "Ear_1.jpg",
+     "score": 0.546,
+     "breakdown": {
+      "clip": 0.6376,
+      "colour": 0.2317,
+      "attr": 0.9283
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 12,
+     "id": "E012",
+     "image_file": "Ear_12.jpg",
+     "score": 0.5202,
+     "breakdown": {
+      "clip": 0.6459,
+      "colour": 0.1633,
+      "attr": 0.9374
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 13,
+     "id": "E010",
+     "image_file": "Ear_10.jpg",
+     "score": 0.4219,
+     "breakdown": {
+      "clip": 0.6279,
+      "colour": 0.1102,
+      "attr": 0.9334
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: with uncut polki kundan stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    },
+    {
+     "rank": 14,
+     "id": "E07",
+     "image_file": "Ear_7.jpg",
+     "score": 0.2485,
+     "breakdown": {
+      "clip": 0.4795,
+      "colour": 0.2195,
+      "attr": 0.9858
+     },
+     "why": [
+      "metal tone: rose gold",
+      "stone palette: with red ruby stones",
+      "style: modern diamond cocktail"
+     ]
+    },
+    {
+     "rank": 15,
+     "id": "E015",
+     "image_file": "Ear_15.jpg",
+     "score": 0.1236,
+     "breakdown": {
+      "clip": 0.505,
+      "colour": 0.1784,
+      "attr": 0.8987
+     },
+     "why": [
+      "metal tone: antique matte gold",
+      "stone palette: plain gold with pearls and no coloured stones",
+      "style: South Indian temple with goddess Lakshmi motifs"
+     ]
+    }
+   ]
+  }
+ ]
+}

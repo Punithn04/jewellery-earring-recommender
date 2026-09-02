@@ -1,9 +1,26 @@
+---
+title: Jewellery Match
+emoji: 💍
+colorFrom: yellow
+colorTo: pink
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # Jewellery Match — earrings for a selected necklace
 
 Given a necklace image, recommend the earrings from the inventory that visually
 go with it. Prototype: one small library + a CLI + a FastAPI endpoint with a demo UI.
 
+**Live demo:** https://punithn04.github.io/jewellery-earring-recommender/ &nbsp;·&nbsp; **Code:** this repo
+
 ![gallery](outputs/gallery_all.png)
+
+The live link is a static build (`build_static.py`) of the precomputed results for the
+5 inventory necklaces — ranking a provided necklace only needs the cached feature
+index + numpy, no GPU/model. The full FastAPI service (`app.py`), which also accepts
+an uploaded necklace image, runs locally with `uvicorn app:app`.
 
 ---
 
