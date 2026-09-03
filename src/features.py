@@ -24,6 +24,7 @@ candidate earrings for the query necklace (so every query uses the full 0..1 ran
 from __future__ import annotations
 
 import functools
+import threading
 
 import numpy as np
 
@@ -74,8 +75,16 @@ def _vec(out):
     return out.pooler_output
 
 
+# The background warmup thread and the first request can both reach _load() at
+# once; without this lock they run two `from_pretrained` loads concurrently, which
+# stalls for ~90s and 500s the first upload. The lock makes the second caller wait
+# for the first load instead of duplicating it.
+_LOAD_LOCK = threading.Lock()
+_TEXT_LOCK = threading.Lock()
+
+
 @functools.lru_cache(maxsize=1)
-def _load():
+def _load_impl():
     from transformers import CLIPModel, CLIPProcessor
 
     model = CLIPModel.from_pretrained(_MODEL_NAME).to(_device()).eval()
@@ -83,8 +92,13 @@ def _load():
     return model, proc
 
 
+def _load():
+    with _LOAD_LOCK:
+        return _load_impl()
+
+
 @functools.lru_cache(maxsize=1)
-def _text_bank() -> np.ndarray:
+def _text_bank_impl() -> np.ndarray:
     import torch
 
     model, proc = _load()
@@ -94,6 +108,11 @@ def _text_bank() -> np.ndarray:
         emb = _vec(model.get_text_features(**t))
     emb = torch.nn.functional.normalize(emb, dim=-1)
     return emb.cpu().numpy()
+
+
+def _text_bank() -> np.ndarray:
+    with _TEXT_LOCK:
+        return _text_bank_impl()
 
 
 # ---------------------------------------------------------------- CLIP embedding
