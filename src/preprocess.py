@@ -69,9 +69,20 @@ def load_object(path: str) -> tuple:
     rgb = np.array(img)
 
     if _HAVE_REMBG:
-        cut = _rembg_remove(img, session=_SESSION).convert("RGBA")
-        arr = np.array(cut)
-        mask = (arr[:, :, 3] > 40).astype(np.uint8)
+        # U^2-Net works at 320px internally, so downscaling the input to ~384px
+        # before matting is ~2-3x faster / lighter with a near-identical mask;
+        # the alpha is then scaled back to full resolution.
+        h0, w0 = rgb.shape[:2]
+        long_side = max(h0, w0)
+        small = img
+        if long_side > 384:
+            s = 384 / long_side
+            small = img.resize((max(1, int(w0 * s)), max(1, int(h0 * s))), Image.BILINEAR)
+        arr = np.array(_rembg_remove(small, session=_SESSION).convert("RGBA"))
+        alpha = arr[:, :, 3]
+        if alpha.shape != (h0, w0):
+            alpha = cv2.resize(alpha, (w0, h0), interpolation=cv2.INTER_LINEAR)
+        mask = (alpha > 40).astype(np.uint8)
         if mask.sum() < 0.01 * mask.size:  # rembg wiped everything -> fall back
             mask = _grabcut_mask(rgb)
     else:

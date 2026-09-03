@@ -10,10 +10,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 ENV PYTHONUNBUFFERED=1 \
-    OMP_NUM_THREADS=2 \
+    OMP_NUM_THREADS=4 \
     HF_HOME=/app/.cache/huggingface \
     U2NET_HOME=/app/.cache/u2net \
-    DISABLE_REMBG=1 \
     PORT=8080
 
 WORKDIR /app
