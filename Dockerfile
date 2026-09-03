@@ -13,6 +13,7 @@ ENV PYTHONUNBUFFERED=1 \
     OMP_NUM_THREADS=2 \
     HF_HOME=/app/.cache/huggingface \
     U2NET_HOME=/app/.cache/u2net \
+    DISABLE_REMBG=1 \
     PORT=8080
 
 WORKDIR /app

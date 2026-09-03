@@ -12,19 +12,25 @@ segmentation that assumes the object is roughly centred.
 from __future__ import annotations
 
 import functools
-import io
+import os
 from pathlib import Path
 
 import numpy as np
 from PIL import Image
 
-try:  # optional, but strongly recommended
-    from rembg import remove as _rembg_remove, new_session as _rembg_session
-
-    _SESSION = _rembg_session("u2net")
-    _HAVE_REMBG = True
-except Exception:  # pragma: no cover - fallback path
+# rembg (U^2-Net) gives the cleanest cutout but its ONNX session costs ~600 MB RAM
+# and ~10 s/image on CPU. Set DISABLE_REMBG=1 (done on the memory-limited Cloud Run
+# deploy) to skip it and use the fast OpenCV GrabCut fallback instead.
+if os.getenv("DISABLE_REMBG", "").lower() in ("1", "true", "yes"):
     _HAVE_REMBG = False
+else:
+    try:
+        from rembg import remove as _rembg_remove, new_session as _rembg_session
+
+        _SESSION = _rembg_session("u2net")
+        _HAVE_REMBG = True
+    except Exception:  # pragma: no cover - fallback path
+        _HAVE_REMBG = False
 
 import cv2
 
