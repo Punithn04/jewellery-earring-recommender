@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import contextlib
 import tempfile
+import threading
 from pathlib import Path
 
 from fastapi import FastAPI, File, Form, HTTPException, UploadFile
@@ -32,15 +33,20 @@ def items():
     return _ITEMS
 
 
-@contextlib.asynccontextmanager
-async def lifespan(_app: FastAPI):
-    # Warm the heavy path at container start so the FIRST upload is fast too.
-    # With --min-instances 1 the instance stays hot and every upload is ~1-3s.
+def _warmup():
+    """Load Fashion-CLIP + the U^2-Net session once so the first upload is fast.
+    Runs in a background thread — must NOT block the server from binding its port
+    (Cloud Run kills a container that doesn't start listening quickly)."""
     try:
         recommend(None, items(), top_k=1, query_path=str(IMAGES / "Nck_1.jpg"))
         print("warmup: Fashion-CLIP + segmentation ready", flush=True)
-    except Exception as exc:  # never block startup on warmup
-        print(f"warmup skipped: {exc}", flush=True)
+    except Exception as exc:
+        print(f"warmup failed (first upload will be slower): {exc}", flush=True)
+
+
+@contextlib.asynccontextmanager
+async def lifespan(_app: FastAPI):
+    threading.Thread(target=_warmup, daemon=True).start()
     yield
 
 
