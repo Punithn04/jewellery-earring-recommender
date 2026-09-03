@@ -12,17 +12,15 @@ Endpoints
 """
 from __future__ import annotations
 
-import io
+import contextlib
 import tempfile
 from pathlib import Path
 
 from fastapi import FastAPI, File, Form, HTTPException, UploadFile
-from fastapi.responses import FileResponse, HTMLResponse, JSONResponse
-from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse, HTMLResponse
 
 from src.index import IMAGES, load, recommend
 
-app = FastAPI(title="Jewellery Match — earrings for a necklace")
 ROOT = Path(__file__).resolve().parent
 _ITEMS = None
 
@@ -32,6 +30,21 @@ def items():
     if _ITEMS is None:
         _ITEMS = load()
     return _ITEMS
+
+
+@contextlib.asynccontextmanager
+async def lifespan(_app: FastAPI):
+    # Warm the heavy path at container start so the FIRST upload is fast too.
+    # With --min-instances 1 the instance stays hot and every upload is ~1-3s.
+    try:
+        recommend(None, items(), top_k=1, query_path=str(IMAGES / "Nck_1.jpg"))
+        print("warmup: Fashion-CLIP + segmentation ready", flush=True)
+    except Exception as exc:  # never block startup on warmup
+        print(f"warmup skipped: {exc}", flush=True)
+    yield
+
+
+app = FastAPI(title="Jewellery Match — earrings for a necklace", lifespan=lifespan)
 
 
 @app.get("/", response_class=HTMLResponse)

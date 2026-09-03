@@ -27,6 +27,11 @@ COPY . .
 # Download models + build outputs/index.pkl into the image
 RUN python precompute.py
 
+# From here on the models are baked in — never touch the network at runtime
+# (an anonymous Hugging Face Hub check on cold start can otherwise stall 60-90s).
+ENV HF_HUB_OFFLINE=1 \
+    TRANSFORMERS_OFFLINE=1
+
 EXPOSE 8080
 # shell form so ${PORT} (set by Cloud Run / the platform) is expanded
 CMD exec uvicorn app:app --host 0.0.0.0 --port ${PORT}
